@@ -1,16 +1,24 @@
-TARGET = lab1_threads
+TARGET = lab1
 
 CC = gcc
 
-CFLAGS = -O2 -lpthread -Wall
+CFLAGS = -lpthread
 
-SRC = lab1_threads.c
+SRC = lab1.c
 
 all:	$(TARGET)
 
 $(TARGET): $(OBJ)
 	$(CC) $(SRC) $(CFLAGS) -o $@ 
 
+optimization: o0 o2
+
+o0: $(OBJ)
+	$(CC) $(SRC) -o0 $(CFLAGS) $@ 
+
+o2: $(OBJ)
+	$(CC) $(SRC) -o2 $(CFLAGS) $@ 
+	
 .c.o:
 	$(CC) $(CFLAGS) $< -o $@ 
 
