@@ -13,9 +13,9 @@ Information about author
 +------------------------+--------------------------+
 | Telegram               | https://t.me/bgdpn       |
 +------------------------+--------------------------+
-| Skype                  |  ponomarenko512          |
+| Skype                  | ponomarenko512           |
 +------------------------+--------------------------+
-| GitHub                 |  bogdanponomarenko       |
+| GitHub                 | bogdanponomarenko        |
 +------------------------+--------------------------+
 
 Information about teacher
@@ -25,4 +25,6 @@ Information about teacher
 | Name                   | Timofei Hodnev           |
 +------------------------+--------------------------+
 | Telegram               | https://t.me/thodnev     |
++------------------------+--------------------------+
+| GitHub                 | thodnev                  |
 +------------------------+--------------------------+
